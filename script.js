@@ -6,8 +6,8 @@ const read = document.querySelector('.txtContador');
 const count = () => {
     let start = Number(numIn.value)
     let end = Number(numEnd.value)
-    let steps = Number(numStep.value)
-
+    let steps = Number(numStep.value) 
+    if(steps == '') steps = 1
     if(read.innerHTML.length == 0) {
         while(start <= end){
             read.innerHTML += `${start}...`;
