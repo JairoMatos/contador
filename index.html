@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+
+    <h1>Vamos contar</h1>
+    <section class="container">
+        <div class="inputs">
+            <label for="inicio">Inicio
+                <input type="number" id="inicio" name="inicio">
+            </label>
+            <label for="fim">Fim
+                <input type="number" id="fim" name="fim">
+            </label>
+            <label for="passo">Passo
+                <input type="number" name="passo" id="passo">
+            </label>
+        </div>
+        <button onclick="count()">Contar</button>
+        <div class="txtContador"></div>
+    </section>
+    <footer>
+        <strong>&copy; Jairo Oliveira Matos</strong>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
