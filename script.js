@@ -2,6 +2,7 @@ const numIn = document.querySelector('#inicio');
 const numEnd = document.querySelector('#fim');
 const numStep = document.querySelector('#passo');
 const read = document.querySelector('.txtContador');
+
 const count = () => {
     let start = Number(numIn.value)
     let end = Number(numEnd.value)
@@ -11,8 +12,13 @@ const count = () => {
         while(start <= end){
             read.innerHTML += `${start}...`;
             start = start + steps;
+            numEnd.value = '';
+            numIn.value = '';
+            numStep.value = '';
         }
         read.innerHTML += ` 🏁`
     }
-    
+}
+function clean(){
+    read.innerHTML = '';
 }

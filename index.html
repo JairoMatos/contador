@@ -12,13 +12,13 @@
     <section class="container">
         <div class="inputs">
             <label for="inicio">Inicio
-                <input type="number" id="inicio" name="inicio">
+                <input type="number" id="inicio" name="inicio" onchange="clean()">
             </label>
             <label for="fim">Fim
-                <input type="number" id="fim" name="fim">
+                <input type="number" id="fim" name="fim" onchange="clean()">
             </label>
             <label for="passo">Passo
-                <input type="number" name="passo" id="passo">
+                <input type="number" name="passo" id="passo" onchange="clean()">
             </label>
         </div>
         <button onclick="count()">Contar</button>

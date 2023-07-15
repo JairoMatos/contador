@@ -21,6 +21,8 @@ h1{
 .inputs{
     margin: auto;
     width: 90%;
+
+
 }
 #inicio,
 #fim,
@@ -39,6 +41,7 @@ label{
     font-size: 20px;
     padding-bottom: 5px;
     text-transform: uppercase;
+    margin-bottom: 20px;
     
 }
 button{
@@ -54,9 +57,10 @@ button{
     box-shadow: 1px 0px 10px #ccc;
     border-radius: 6px;
     padding: 10px;
-    width: 90%;
+    width: 80%;
     word-wrap: break-word;
     line-height: 30px;
+    min-height: 40px;
 }
 footer{
     margin-top: 40px;
